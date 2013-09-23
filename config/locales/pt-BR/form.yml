@@ -1,0 +1,18 @@
+pt-BR:
+  form:
+    buttons:
+      login: "Entrar"
+      search: "OK"
+
+    error_messages: "Verifique o formulário antes de continuar."
+
+  helpers:
+    submit:
+      user:
+        create: Quero me cadastrar!
+
+      question:
+        create: "Adicionar pergunta"
+
+      reply:
+        create: "Enviar resposta"

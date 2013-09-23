@@ -1,0 +1,23 @@
+<h1>Últimas perguntas</h1>
+
+<dl class="filters">
+  <dt>Filter posts</dt>
+
+  <dd><%= link_to t("filter.all"), questions_path %></dd>
+  <dd><%= link_to t("filter.unanswered"), questions_path(:filter => QuestionFilter::UNANSWERED) %></dd>
+</dl>
+
+<% content_for :paginate do %>
+  <%= paginate @questions %>
+<% end %>
+
+<% iterate @questions do |question| %>
+  <%= render question %>
+<% end %>
+
+<%= yield :paginate %>
+
+<% content_for :sidebar do %>
+  <%= render "categories", :categories => @sidebar.categories %>
+  <%= render "users", :users => @sidebar.users %>
+<% end %>

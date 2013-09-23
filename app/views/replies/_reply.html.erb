@@ -1,0 +1,8 @@
+<div class="reply">
+  <p class="about">
+    <%= profile_link(reply.user) %>
+    <%= t("reply.about", :time => l(reply.created_at, :format => :short)) %>
+  </p>
+
+  <%= simple_format reply.body %>
+</div>

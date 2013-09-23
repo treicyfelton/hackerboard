@@ -1,0 +1,33 @@
+pt-BR:
+  flash:
+    auth:
+      alert: "Você precisar fazer o login para acessar esta página."
+
+    users:
+      create:
+        notice: "Seu cadastro foi realizado com sucesso!"
+
+    sessions:
+      create:
+        notice: "Que bom que você voltou!"
+        alert: "E-mail/senha inválidos."
+
+    questions:
+      create:
+        notice: "Sua pergunta foi adiciona com sucesso!"
+      search:
+        alert: "A busca não está funcionando nesse momento! Tente novamente mais tarde."
+
+    replies:
+      create:
+        notice: "Sua resposta foi adicionada!"
+        alert: "Você precisa preencher sua resposta."
+
+    admin:
+      categories:
+        destroy:
+          notice: "Categoria removida com sucesso!"
+        create:
+          notice: "Categoria criada com sucesso!"
+        update:
+          notice: "Categoria atualizada com sucesso!"

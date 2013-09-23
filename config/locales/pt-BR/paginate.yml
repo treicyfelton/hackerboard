@@ -1,0 +1,5 @@
+pt-BR:
+  paginate:
+    previous: "Mais recentes"
+    page: "Página %{page}"
+    next: "Mais antigos"

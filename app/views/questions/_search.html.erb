@@ -1,0 +1,8 @@
+<h1><%= t("sidebar.search") %></h1>
+
+<%= form_tag search_questions_path, :method => :get, :class => "search" do %>
+  <p>
+    <%= search_field_tag :query %>
+    <%= submit_tag t("form.buttons.search") %>
+  </p>
+<% end %>
